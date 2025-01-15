@@ -1,0 +1,22 @@
+.about-me-section {
+    padding: 0 50px;
+    margin-bottom: 100px;
+    
+}
+
+.about-me-section h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+.about-me-section .detailed-descr{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+
+.detailed-descr p{
+    padding: 10px 0px;
+}

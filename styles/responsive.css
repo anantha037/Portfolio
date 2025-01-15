@@ -1,0 +1,190 @@
+@media (max-width: 850px){
+    .hero .description h2{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 740px){
+    .hero {
+        flex-direction:column-reverse;
+    }
+    .hero .description h2{
+        font-size: 25px;
+    }
+
+    .hero .description .links a{
+        padding: 2px 4px;
+        margin-right: 5px;
+        border: 1px solid var(--link-color);
+    
+    }
+    .hero .description span{
+        font-size: 0.9rem;
+    }
+    .hero .profile-image img{
+        width: 300px;
+    }
+
+    .education-section .container-section{
+        flex-direction: column;
+        gap:10px;
+    }
+    .container-section .container{
+        max-width: 100%;
+    }
+
+    .skills-section .cells .cell{
+
+        width: 200px;
+    }
+
+    .project-section .container-section{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .project-section .container-section .container{
+        max-width: 100%;
+    }
+
+    .testimony-section{
+        text-align:center;
+    }
+    
+
+    .testimony-section .group{
+        flex-direction: column; 
+    }
+
+    .contact-section .group{
+        flex-direction: column;
+    }
+    
+}
+
+@media (max-width: 600px){
+    nav {
+        padding: 0 20px;
+    }
+
+    nav .nav-left a{
+        font-size: 16px;
+    }
+
+    nav .nav-right a {
+        font-size: 22px;
+        margin: 0 5px;
+    }
+
+    nav .nav-right a span {
+        display: none;
+    }
+
+    nav .nav-right a:last-child{
+        color:var(--text-color);
+        background-color: transparent;
+        padding: 0;
+    }
+
+
+    .hero{
+        padding:0 20px;
+    }
+    .hero .profile-image img{
+        width: 250px;
+    }
+    
+    .hero .description .links{
+        display: flex;
+        flex-wrap: wrap;
+        gap:10px;
+        justify-content: center;
+    }
+    .about-me-section h2{
+        font-size:25px;
+    }
+
+    .about-me-section .detailed-descr {
+        font-size:16px;
+    }
+
+    .container .course{
+        font-size:1rem;
+    }
+
+    .container .subjects{
+        font-size:0.8rem;
+    }
+
+    .skills-section {
+        padding: 0 20px;
+    }
+
+    .skills-section h2{
+        font-size:25px;
+    }
+
+    .skills-section .skills-descr {
+        font-size: 16px;
+    }
+    .skills-section .cells .cell {
+        width: 165px;
+        margin:5px;
+        padding: 10px 10px;
+    }
+    .skills-section .cells .cell img {
+        width: 20px;
+        height: 20px;
+        object-fit: contain;
+        border-radius: 2px;
+    }
+    .skills-section .cells .cell span{
+        font-size: 10px;
+    }
+
+
+    .project-section h2{
+        font-size:25px;
+    }
+
+    .project-section .container h3{
+        font-size: 20px;
+    }
+    .container .project-name{
+        font-size: 1rem;
+    }
+    .project-descr {
+        font-size: 0.8rem;
+    }
+    
+    .testimony-section{
+        padding: 0 20px;
+    }
+    
+    .testimony-section h2{
+        font-size:25px;
+    }
+
+    .testimony-section .group .testimony-descr{
+        font-size: 0.8rem;
+    }
+
+    .contact-section {
+        padding: 0 20px;
+    }
+
+    .contact-section h2{
+        font-size: 25px;
+    }
+    .contact-section .group .contact-descr{
+        margin-top: 3rem;
+    }
+
+    .contact-descr p{
+        margin-bottom: 1.5rem;
+    }
+
+    .contact-descr span{
+        font-size: 0.8rem;;
+    }
+}

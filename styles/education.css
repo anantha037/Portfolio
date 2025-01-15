@@ -1,0 +1,62 @@
+.education-section{
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+
+.education-section h2{
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+
+.education-section .container-section{
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    
+}
+
+.container-section .container{
+    background-color: #EFEAEA;;
+    max-width: 33.3%;
+    width: 100%;
+    margin: 10px;
+    border-radius: .5rem;
+}
+
+.container h3{
+    font-size: 35px;
+    padding: 25px;
+}
+
+.container .year{
+    font-size: 1rem;
+    color:rgb(192, 178, 178);
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+
+.container .course{
+    font-size: 1.5rem;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.container .college{
+    color: rgb(192,178,178);
+    font-size: 1rem;
+    padding-left: 20px;
+    padding-bottom: 5rem;
+}
+
+.container .subjects{
+    font-size: 1rem;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right:  20px;
+    overflow: auto;
+}
+
+.container span{
+    font-weight: 600;
+}

@@ -1,0 +1,49 @@
+.skills-section {
+    padding: 0 50px;
+    margin-bottom: 100px;
+    
+}
+
+.skills-section h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+.skills-section .skills-descr{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.skills-section .cells{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills-section .cells .cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    width: 165px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 1.5px solid #d3d3d3;
+    border-radius: 5px;
+}
+
+
+.skills-section .cells .cell img{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    border-radius: 2px;
+    
+}
+
+.skills-section .cells .cell span{
+    font-size: 18px;
+}

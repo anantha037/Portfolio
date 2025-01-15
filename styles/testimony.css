@@ -1,0 +1,41 @@
+.testimony-section{
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+
+.testimony-section h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.testimony-section .group{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.testimony-section .group .person-details{
+    text-align: center;
+    flex: 2;
+}
+
+.testimony-section .group .person-details img{
+    width: 200px;
+    /* object-fit: cover;
+    aspect-ratio: 1/1; */
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.testimony-section .group .person-details p{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.testimony-section .group .person-details p:last-child{
+    font-weight: normal;
+}
+
+.testimony-section .group .testimony-descr{
+    flex: 8;
+}
