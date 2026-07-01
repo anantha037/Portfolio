@@ -76,6 +76,7 @@ export default function Contact() {
               key={link.id}
               variants={itemVariants}
               href={link.href}
+              aria-label={link.label}
               target={link.id === 'email' || link.id === 'phone' ? '_self' : '_blank'}
               rel="noopener noreferrer"
               whileHover={{ y: -4, boxShadow: '0 12px 40px rgba(108,99,255,0.2)' }}

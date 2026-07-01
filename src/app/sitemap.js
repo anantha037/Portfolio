@@ -1,10 +1,12 @@
+import { siteConfig } from '../config/site';
+
 export default function sitemap() {
   return [
     {
-      url: 'https://ananthakrishnan.com',
+      url: siteConfig.url,
       lastModified: new Date(),
       changeFrequency: 'yearly',
       priority: 1,
     }
-  ]
+  ];
 }

@@ -1,0 +1,33 @@
+export const siteConfig = {
+  name: "Anantha Krishnan K. Portfolio",
+  title: "Anantha Krishnan K | AI & Machine Learning Engineer",
+  description: "AI & Machine Learning Engineer specializing in LLMs, RAG, NLP, Computer Vision, Agentic AI and Full Stack AI Applications. Creator of LexShield AI.",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://anantha-k.vercel.app",
+  author: "Anantha Krishnan K.",
+  email: "ananthan0377@gmail.com",
+  links: {
+    github: "https://github.com/anantha037",
+    linkedin: "https://linkedin.com/in/anantha-krishnan-k",
+  },
+  keywords: [
+    "Anantha Krishnan",
+    "Anantha Krishnan K",
+    "AI Engineer",
+    "Machine Learning Engineer",
+    "Data Scientist",
+    "LLM",
+    "RAG",
+    "LangGraph",
+    "CrewAI",
+    "NLP",
+    "Computer Vision",
+    "LexShield AI",
+    "Python",
+    "Next.js",
+    "Portfolio"
+  ],
+  creator: "Anantha Krishnan K.",
+  publisher: "Anantha Krishnan K.",
+  category: "technology",
+  themeColor: "#050510",
+};
