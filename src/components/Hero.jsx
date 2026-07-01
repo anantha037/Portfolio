@@ -1,3 +1,4 @@
+"use client";
 import { motion } from 'framer-motion';
 import { ChevronDown, ArrowRight, Download } from 'lucide-react';
 import ParticleBackground from './ParticleBackground';
