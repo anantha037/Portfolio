@@ -59,7 +59,7 @@ export default async function Image() {
         >
           {/* Profile Photo */}
           <img
-            src={`${siteConfig.url}/profile.jpg`}
+            src={`${siteConfig.url}/profile.png`}
             alt="Anantha Krishnan K."
             style={{
               width: '240px',
@@ -100,7 +100,7 @@ export default async function Image() {
             >
               AI & Machine Learning Engineer
             </p>
-            
+
             <p
               style={{
                 fontSize: '24px',

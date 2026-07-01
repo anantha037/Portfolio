@@ -12,7 +12,7 @@ export default function Hero() {
       <ParticleBackground />
 
       <div className="relative z-10 max-w-[1200px] w-full px-6 flex flex-col-reverse lg:flex-row items-center justify-between gap-12 lg:gap-8 mt-12 lg:mt-0">
-        
+
         {/* Left Side: Text Content */}
         <div className="flex flex-col items-center lg:items-start text-center lg:text-left flex-1">
           <motion.div
@@ -100,7 +100,7 @@ export default function Hero() {
         </div>
 
         {/* Right Side: Profile Photo */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, scale: 0.8, rotate: -5 }}
           animate={{ opacity: 1, scale: 1, rotate: 0 }}
           transition={{ delay: 0.6, duration: 0.8, type: "spring" }}
@@ -108,12 +108,12 @@ export default function Hero() {
         >
           {/* Subtle Glow Ring */}
           <div className="absolute inset-0 rounded-full bg-accent1/20 blur-3xl animate-pulse" style={{ animationDuration: '4s' }}></div>
-          
+
           <div className="relative w-full aspect-square rounded-full p-2 glass-card border-accent1/30">
             <div className="relative w-full h-full rounded-full overflow-hidden border-2 border-[#6C63FF]/50 shadow-[0_0_30px_rgba(108,99,255,0.3)]">
-              {/* Note: The image relies on /profile.jpg existing in the public directory */}
+              {/* Note: The image relies on /profile.png existing in the public directory */}
               <Image
-                src="/profile.jpg"
+                src="/profile.png"
                 alt="Anantha Krishnan K - AI & Machine Learning Engineer"
                 fill
                 priority
