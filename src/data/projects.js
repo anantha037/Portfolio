@@ -9,7 +9,7 @@ export const projects = [
     description: "End-to-end multi-agent legal AI system for Indian law. Features LangGraph orchestration, hybrid RAG (ChromaDB + BM25), LLM tool-calling, multilingual support for 10 Indian languages, and InLegalBERT classification. Scored 77.4% GOOD on RAGAS evaluation.",
     tags: ["LangGraph", "RAG", "LangChain", "GCP Cloud Run", "FastAPI", "Next.js"],
     github: "https://github.com/anantha037/LexShield-AI",
-    demo: null,
+    demo: "https://lexshield.co.in/",
     filterTags: ["LLM / RAG"]
   },
   {
